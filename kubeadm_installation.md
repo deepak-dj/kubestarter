@@ -112,6 +112,11 @@ kubeadm token create --print-join-command
    ```bash
    sudo your-token --v=5
    ```
+   updated command
+   ```bash
+   sudo kubeadm join 172.31.19.107:6443 --token 3ucskl.0rm1bjsz1thh1kdl --discovery-token-ca-cert-hash sha256:a15d40dba66d63bd660f287a45f760e844af8862eaaca2c9d83bb5a24284a6b7 --cri-socket unix:///var/run/containerd/containerd.sock --v=5
+```
+   
 
    > Use `sudo` before the token.
 
